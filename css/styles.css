@@ -1,0 +1,165 @@
+body {
+  background-color: #0e2f44;
+}
+
+.company-name {
+  text-align: center;
+  padding: 3% 3%;
+  color: #fff;
+}
+
+/* Navbar */
+
+.image-navbar{
+  margin-left: 5%;
+  width: 90%;
+  border-radius: 5%;
+  animation-name: navbar-image;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes navbar-image {
+  0% { border-radius: 5%;}
+  100% { border-radius: 10%;}
+}
+
+/* Download Button */
+.download-button {
+  margin: 3% 3% 0 0;
+}
+
+/* Features */
+.row-features {
+  margin: 5% 5%;
+  font-size: 20px;
+  color: #fff;
+}
+
+.features {
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  padding-bottom: 5px;
+}
+
+.image-features {
+  padding-right: 3%;
+  vertical-align: bottom;
+}
+
+.col-lg-6 p {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding-left: 4rem;
+}
+
+.col-lg-8 p {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  padding-right: 3rem;
+}
+
+/* About Us */
+.About {
+  margin: 5% 5% 15%;
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 2%;
+}
+
+.image1 {
+  height: 55%;
+  width: 90%;
+  border-radius: 15%;
+}
+
+.image2 {
+  margin-top: -40%;
+  height: 55%;
+  width: 90%;
+  border-radius: 15%;
+  margin-left: 22%;
+}
+
+.About_us {
+  border-left-width: 3px;
+  border-left-style: solid;
+  padding-left: 15px;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  color: #fff;
+  margin-top: -15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 1% 6%;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 7% 15% 1%;
+  background-image: url("https://constructionexec.com/assets/site_18/images/article/081219110833.jpg?width=1280");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  font-weight: 500;
+}
+
+.social-icon {
+  margin: 100px 10px 20px;
+}
+
+.email {
+  color: #fff;
+}
+
+.col-lg-4 {
+  text-align: left;
+  color: #fff;
+}
+
+.col-lg-4 h3 {
+  border-left-width: 3px;
+  border-left-style: solid;
+  padding-left: 15px;
+}
+
+.col-lg-4 p{
+  padding-left: 1rem;
+  width: 18rem;
+}
+
+.quick-links{
+  padding-left: 1.5rem;
+  width: 18rem;
+}
+
+.quick-links a{
+  color: #fff;
+}
+
+.contact-icon {
+  margin: 0 10px;
+}
